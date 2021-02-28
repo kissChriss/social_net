@@ -9,7 +9,7 @@
     <p>
         Login as:
         {% for user in users %}
-        <p> <a href="">{{user.first_name}} {{user.last_name}}</a> </p>
+        <p> <a href="/{{user.id}}">{{user.first_name}} {{user.last_name}}</a> </p>
         {% endfor %}
     </p>
 </body>
